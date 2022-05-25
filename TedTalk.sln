@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TedTalk.WebHost.HttpApi", "TedTalk.WebHost.HttpApi\TedTalk.WebHost.HttpApi.csproj", "{A235CBBD-D943-4708-9F5A-9F213D369FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TedTalk.Domain", "TedTalk.Domain\TedTalk.Domain.csproj", "{BAD2C0FB-0BDF-472C-A2B3-5E42489B2FC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TedTalk.Domain.Shared", "TedTalk.Domain.Shared\TedTalk.Domain.Shared.csproj", "{083178CB-4E21-467E-BAA5-99A06A7A70E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TedTalk.Application.Contracts", "TedTalk.Application.Contracts\TedTalk.Application.Contracts.csproj", "{B8E260A2-454B-4CF2-A34F-3C19188C49AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TedTalk.Application", "TedTalk.Application\TedTalk.Application.csproj", "{C8D81E6A-3E9B-4627-A6F3-4EB2EA30D34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TedTalk.Data", "TedTalk.Data\TedTalk.Data.csproj", "{3B6E0D7E-C7CF-4718-9FF5-B80D5FB93AC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A235CBBD-D943-4708-9F5A-9F213D369FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A235CBBD-D943-4708-9F5A-9F213D369FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A235CBBD-D943-4708-9F5A-9F213D369FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A235CBBD-D943-4708-9F5A-9F213D369FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD2C0FB-0BDF-472C-A2B3-5E42489B2FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD2C0FB-0BDF-472C-A2B3-5E42489B2FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD2C0FB-0BDF-472C-A2B3-5E42489B2FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD2C0FB-0BDF-472C-A2B3-5E42489B2FC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083178CB-4E21-467E-BAA5-99A06A7A70E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083178CB-4E21-467E-BAA5-99A06A7A70E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083178CB-4E21-467E-BAA5-99A06A7A70E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083178CB-4E21-467E-BAA5-99A06A7A70E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E260A2-454B-4CF2-A34F-3C19188C49AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E260A2-454B-4CF2-A34F-3C19188C49AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E260A2-454B-4CF2-A34F-3C19188C49AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E260A2-454B-4CF2-A34F-3C19188C49AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D81E6A-3E9B-4627-A6F3-4EB2EA30D34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D81E6A-3E9B-4627-A6F3-4EB2EA30D34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D81E6A-3E9B-4627-A6F3-4EB2EA30D34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D81E6A-3E9B-4627-A6F3-4EB2EA30D34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6E0D7E-C7CF-4718-9FF5-B80D5FB93AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6E0D7E-C7CF-4718-9FF5-B80D5FB93AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6E0D7E-C7CF-4718-9FF5-B80D5FB93AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6E0D7E-C7CF-4718-9FF5-B80D5FB93AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DB828AC-92B3-4E05-8149-AE453779E986}
+	EndGlobalSection
+EndGlobal

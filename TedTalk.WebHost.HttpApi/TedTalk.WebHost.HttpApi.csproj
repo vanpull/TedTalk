@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TedTalk.Application.Contracts\TedTalk.Application.Contracts.csproj" />
+    <ProjectReference Include="..\TedTalk.Application\TedTalk.Application.csproj" />
+    <ProjectReference Include="..\TedTalk.Data\TedTalk.Data.csproj" />
+    <ProjectReference Include="..\TedTalk.Domain.Shared\TedTalk.Domain.Shared.csproj" />
+    <ProjectReference Include="..\TedTalk.Domain\TedTalk.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\Data\" />
+  </ItemGroup>
+
+</Project>
